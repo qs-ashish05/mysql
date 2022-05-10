@@ -47,6 +47,7 @@ SELECT student_name , student_major FROM STUDENT
 WHERE STUDENT_major IN ('Biology','Chemistry','Computer Science');
 -- note eqal to <>
 
+drop table student;
 
 
 DESC student;
