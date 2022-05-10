@@ -3,7 +3,7 @@ use Ashish;
 CREATE TABLE student(
 	student_id int AUTO_INCREMENT,
     student_name VARCHAR(20) NOT NULL,
-    student_major VARCHAR(20),  -- unique,
+    student_major VARCHAR(20),
     PRIMARY KEY(student_id)
 );
 
